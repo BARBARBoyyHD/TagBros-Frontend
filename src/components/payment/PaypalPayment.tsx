@@ -8,7 +8,7 @@ import { BASE_URL } from "../../config/BaseURL";
 
 export default function PaypalPayment() {
   const initialOptions: ReactPayPalScriptOptions = {
-    clientId: client_id, // ✅ Fix: Changed from "client-id" to clientId
+    clientId: "test", // ✅ Fix: Changed from "client-id" to clientId
     currency: "USD",
     intent: "capture",
   };
